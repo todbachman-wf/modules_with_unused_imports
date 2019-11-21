@@ -1,0 +1,12 @@
+name: modules_with_unused_imports
+description: A simple example demonstrating how unused imports affect DDC module structure and dependencies.
+
+environment:
+  sdk: '>=2.4.0 <3.0.0'
+
+dev_dependencies:
+  build_runner: ">=0.6.0 <2.0.0"
+  build_test: ">=0.9.0 <2.0.0"
+  build_web_compilers: ">=0.2.0 <3.0.0"
+  pedantic: ^1.7.0
+  test: ^1.6.0
